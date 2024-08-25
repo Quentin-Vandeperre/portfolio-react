@@ -10,34 +10,128 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+  
     <title>React App</title>
   </head>
   <body>
+    <!----------------------------------HEADER-------------------------------------->
+    <header>
+      <img src="img/logo.svg" alt="logoPage" class="logoPage">
+      <nav class="navLien">
+          <a href="#sectionPresentation"><div class="présentationNav">Présentation</div></a>
+          <a href="#sectionSkill"><div class="competencesNav">Compétences</div></a>
+          <a href="#sectionProject"><div class="projetNav">Projets</div></a>
+          <a href="#contact"><div class="contactNav">Contact</div></a>
+      </nav>
+    </header>
+  <!----------------------------------MAIN-------------------------------------->
+    <main>
+      <p>Bonjour ! </br>Je m'appelle Quentin Vandeperre, je suis actuellement en formation développeur Web 
+          chez OpenClassrooms.
+      </p>
+    </main>
+
+    <section class="sectionPresentation" id="sectionPresentation">
+      <h1 class="titlePresentation">Présentation</h1>
+      <p class="pPresentation"> 
+          Etant dans le monde du travail depuis mes 18 ans, je suis aujourd'hui en pleine reconversion professionnelle. <br/>
+          Ma formation OpenClassrooms me prouve que mon choix de reconversion est le bon. <br/>
+          Je suis aujourd'hui plus que jamais motivé à poursuivre mon projet, c'est pour cela que j'ai décidé de réaliser 
+          un voyage linguistique de 8 semaines afin d'avoir le niveau d'anglais requis. 
+      </p>
+    </section>
+<!----------------------------------------------------Competences------------------------------------------------------->
+    <section class="sectionSkill" id="sectionSkill">
+      <h1 class="titleSkill">Compétences</h1>
+      <div class="divSkill">
+          <div class="skillOpen">
+              <img src="img/open.png" alt="logoOpenClassrooms" class="logoSchool">
+              <h2 class="titleSkllOpen">Compétences acquises et en cours d'acquisition</h2>
+              <p>OpenClassrooms</p>
+              <ul class="ulSkill">
+                  <li class="liSkill">HTML</li>
+                  <li class="liSkill">CSS</li>
+                  <li class="liSkill">JavaScript</li>
+                  <li class="liSkill">React</li>
+                  <li class="liSkill">NodeJS</li>
+                  <li class="liSkill">API Rest</li>
+                  <li class="liSkill">Express</li>
+                  <li class="liSkill">MongoDB</li>
+                  <li class="liSkill">MySQL</li>
+                  <li class="liSkill">Git</li>
+                  <li class="liSkill">GitHub</li>
+              </ul>
+          </div>
+          <div class="skillYnov">
+              <img src="img/ynov.png" alt="logoYnov" class="logoSchool">
+              <h2 class="titleSkllYnov">Compétences acquises à la fin du bachelor 3</h2>
+              <p>Ynov</p>
+              <ul class="ulSkill">
+                  <li class="liSkill">Swift</li>
+                  <li class="liSkill">.Net</li>
+                  <li class="liSkill">Java</li>
+                  <li class="liSkill">Flutter</li>
+                  <li class="liSkill">Kotlin</li>
+                  <li class="liSkill">Angular</li>
+                  <li class="liSkill">VueJS</li>
+                  <li class="liSkill">Symphony</li>
+                  <li class="liSkill">Laravel</li>
+                  <li class="liSkill">DevOps</li>
+                  <li class="liSkill">NoSQL</li>
+              </ul>
+          </div>
+      </div>
+    </section>
+
+    <section class="sectionProject" id="sectionProject">
+      <h1 class="titleProject">Projets</h1>
+      <h2>Programme OpenClassrooms</h2>
+
+
+
+
+
+
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="descriptionProjectOpen">
+      <p>
+          Les autres projets réalisés sont les suivants :
+      </p>
+      <ul class="ulProjectOpen">
+          <li class="liProjectOpen">Débugger et optimisez un site de photogrophe</li>
+          <li class="liProjectOpen">Planifier le développement du site de votre client (méthode agile)</li>
+          <li class="liProjectOpen">Créer et publier votre portfolio de développeur</li>
+      </ul>
+    </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <footer class="contact" id="contact">
+      <h1>Me contacter</h1>
+      <p>
+        Pour plus d'informations n'hésitez pas à me contacter par mail, par téléphone ou via LinkedIn.
+      </p>
+      <ul class="listContact">
+        <li>quentin.vandeperre12@outlook.fr</li>
+        <li>06.05.12.10.98</li>
+      </ul>
+      <div class="logo">
+        <p>
+            <a href="https://www.linkedin.com/in/quentin-vandeperre-1b39821b5/" target="_blank"><img src="img/linkedin.png" alt="logoLinkedin" class="logoLinkedin"></a>
+        </p>
+        <p>
+            <a href="https://github.com/Quentin-Vandeperre" target="_blank"><img src="img/github.svg" alt="logoGitHub" class="logoGitHub"></a>
+        </p>
+      </div> 
+    </footer>
+  <script src="style.js"></script>
+
+
+
   </body>
 </html>
