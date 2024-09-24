@@ -1,6 +1,6 @@
 function Project1() {
     return (
-<aside id="modal4" class="modal" >	
+<aside id="modal4" class="modal">	
                     <div class="modalWrapper4 jsModalStop">
                         <div class="towButton">
                             <button class="returnModal4"><i class="fa-solid fa-arrow-left"></i></button>

@@ -1,7 +1,16 @@
-function Project1() {
+import React from 'react';
+
+import Modal from './Modal';
+
+const ModalOne = ({ closeFn = () => null, open = true }) => {
 return (
-    <aside id="modal1" class="modal">
-                        <div class="pictureAndInfoProject">
+    <Modal open={open}>
+        <div className="modal--mask">
+        <div className="modal-window">
+        <button type="button" onClick={closeFn}>
+              Close
+            </button>
+        <div class="pictureAndInfoProject">
                             {/* <img src="img/CaptureBookiLarge.png" alt="pictureBooki" class="picturePrincipalModal"> */}
                             <div class="infoProjectBooki">
                                 <h1 class="titleModal">Booki</h1>
@@ -25,9 +34,13 @@ return (
                             </div>
                             
                         </div>
-                        <button class="buttonModalNextProject">Projet suivant</button>
-                </aside>
+        </div>
+      </div>
+
+
+
+    
+                </Modal>
 );
 }
-
-export default Project1
+export default ModalOne;
