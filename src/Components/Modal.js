@@ -5,20 +5,34 @@ import Project1 from "./Project1"
 import Project2 from "./Project2"
 import Project3 from "./Project3"
 import Project4 from "./Project4"
+
+import img1 from '../img/CaptureBooki.png'
+import img2 from '../img/CapturePortfolio.png'
+import img3 from '../img/CaptureKasa.png'
+import img4 from '../img/CaptureSiteLivre.png'
+
 import '../styles/modal.css'
 
 
 export default function ModalButton() {
   const [activeModal, setActiveModal] = useState(null); // null signifie aucun modal n'est ouvert
 
-  // Créer un tableau de 4 boutons
-  const buttons = Array.from({ length: 4 }, (_, index) => (
+  
+  const images = [
+    img1, // Remplace par le chemin de ton image
+    img2,
+    img3,
+    img4
+  ];
+
+  // Créer un tableau de 4 boutons avec des images différentes
+  const buttons = images.map((imageSrc, index) => (
     <button
       key={index}
       className="buttonOpenModal"
       onClick={() => setActiveModal(index + 1)} // Ouvre le modal correspondant à l'index
     >
-      Open Modal {index + 1}
+      <img src={imageSrc} alt={`Button image ${index + 1}`} />   
     </button>
   ));
 
