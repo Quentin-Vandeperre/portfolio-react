@@ -19,7 +19,7 @@ export default function ModalButton() {
 
   
   const images = [
-    img1, // Remplace par le chemin de ton image
+    img1, 
     img2,
     img3,
     img4
@@ -32,7 +32,7 @@ export default function ModalButton() {
       className="buttonOpenModal"
       onClick={() => setActiveModal(index + 1)} // Ouvre le modal correspondant à l'index
     >
-      <img src={imageSrc} alt={`Button image ${index + 1}`} />   
+      <img src={imageSrc} alt= "capture d'écran du site" className="pictureButton" />   
     </button>
   ));
 
