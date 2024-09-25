@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/modal.css'
+import img from '../img/CaptureBookiLarge.png'
 
 export default function Project1({closeModal}) {
   return (
@@ -8,7 +9,7 @@ export default function Project1({closeModal}) {
       </div>
       <div className="divModal">
         <div class="pictureAndInfoProject">
-                            {/* <img src="img/CaptureBookiLarge.png" alt="pictureBooki" class="picturePrincipalModal"> */}
+                            <img src={img} alt="pictureBooki" class="picturePrincipalModal"/>
                             <div class="infoProjectBooki">
                                 <h1 class="titleModal">Booki</h1>
 

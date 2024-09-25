@@ -1,5 +1,8 @@
 import React from 'react'
 import '../styles/modal.css'
+import img from '../img/CaptureSiteLivre.png'
+import img1 from '../img/CaptureAjoutLivre.png'
+import img2 from '../img/CaptureInfoLivre.png'
 
 export default function Project4({closeModal}) {
   return (
@@ -8,7 +11,7 @@ export default function Project4({closeModal}) {
       </div>
       <div className="divModal">
       <div class="pictureAndInfoProject">
-                            {/* <img src="img/CaptureSiteLivre.png" alt="picturePortfolio" class="picturePrincipalModal"> */}
+                            <img src={img} alt="picturePortfolio" class="picturePrincipalModal"/>
                             <div class="infoProjectBooki">
                                 <h1 class="titleModal">Site notation de livre</h1>
 
@@ -32,8 +35,8 @@ export default function Project4({closeModal}) {
                                     <p class="lienGitHub"><a href="https://github.com/Quentin-Vandeperre/Site-livre">GitHub</a></p>
                                 </div>
                             </div>
-                            {/* <img src="img/CaptureAjoutLivre.png" alt="picturePortfolio" class="pictureSecondaireModal">
-                            <img src="img/CaptureInfoLivre.png" alt="picturePortfolio" class="pictureSecondaireModal"> */}
+                            <img src={img1} alt="picturePortfolio" class="pictureSecondaireModal"/>
+                            <img src={img2} alt="picturePortfolio" class="pictureSecondaireModal"/>
                         </div>
         <button className= "buttonCloseModale" onClick={closeModal}>
           X

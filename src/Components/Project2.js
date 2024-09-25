@@ -1,5 +1,9 @@
 import React from 'react'
 import '../styles/modal.css'
+import img from '../img/CapturePortfolioLarge.png'
+import img1 from '../img/CaptureLogin.png'
+import img2 from '../img/CaptureSuppimer.png'
+import img3 from '../img/CaptureAjouter.png'
 
 export default function Project2({closeModal}) {
   return (
@@ -8,7 +12,7 @@ export default function Project2({closeModal}) {
       </div>
       <div className="divModal">
       <div class="pictureAndInfoProject">
-                            {/* <img src="img/CapturePortfolioLarge.png" alt="picturePortfolio" class="picturePrincipalModal"> */}
+                            <img src={img} alt="picturePortfolio" class="picturePrincipalModal"/>
                             <div class="infoProjectBooki">
                                 <h1 class="titleModal">Portfolio Architecte</h1>
 
@@ -33,9 +37,9 @@ export default function Project2({closeModal}) {
                                     <p class="lienGitHub"><a href="https://github.com/Quentin-Vandeperre/https---github.com-Quentin-Vandeperre-portfolio-architecte">GitHub</a></p>
                                 </div>
                             </div>
-                            {/* <img src="img/CaptureLogin.png" alt="picturePortfolio" class="pictureSecondaireModal">
-                            <img src="img/CaptureSuppimer.png" alt="picturePortfolio" class="pictureSecondaireModal">
-                            <img src="img/CaptureAjouter.png" alt="picturePortfolio" class="pictureSecondaireModal"> */}
+                            <img src={img1} alt="picturePortfolio" class="pictureSecondaireModal"/>
+                            <img src={img2} alt="picturePortfolio" class="pictureSecondaireModal"/>
+                            <img src={img3} alt="picturePortfolio" class="pictureSecondaireModal"/>
                         </div>
         <button className= "buttonCloseModale" onClick={closeModal}>
           X
