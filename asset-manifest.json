@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5c3666d.css",
-    "main.js": "/static/js/main.9118a70f.js",
-    "static/media/CapturePortfolio.png": "/static/media/CapturePortfolio.ff593c727777b242b3ec.png",
-    "static/media/CaptureKasa.png": "/static/media/CaptureKasa.b3d80077fc143bddab6e.png",
-    "static/media/CaptureLogin.png": "/static/media/CaptureLogin.4d8cb37b61a708218936.png",
-    "static/media/CaptureAbout.png": "/static/media/CaptureAbout.3bce3b1d71f1252116a4.png",
-    "static/media/CapturePortfolioLarge.png": "/static/media/CapturePortfolioLarge.430b03e6745cf5c5f61b.png",
-    "static/media/CaptureRentalSheet.png": "/static/media/CaptureRentalSheet.956841f0da278504e7e8.png",
-    "static/media/CaptureSuppimer.png": "/static/media/CaptureSuppimer.37431d571cc9f822ba5f.png",
-    "static/media/CaptureBooki.png": "/static/media/CaptureBooki.d909acfc393fe0a3208b.png",
-    "static/media/CaptureInfoLivre.png": "/static/media/CaptureInfoLivre.2e5aac83cc03491e2a16.png",
-    "static/media/CaptureSiteLivre.png": "/static/media/CaptureSiteLivre.186cb12d19d627940939.png",
-    "static/media/CaptureBookiLarge.png": "/static/media/CaptureBookiLarge.1995abfb58be5ddcbac5.png",
-    "static/media/CaptureAjouter.png": "/static/media/CaptureAjouter.1b1f32a2b47d05e69933.png",
-    "static/media/CaptureAjoutLivre.png": "/static/media/CaptureAjoutLivre.54109ca162da66dff2ad.png",
-    "index.html": "/index.html",
-    "main.f5c3666d.css.map": "/static/css/main.f5c3666d.css.map",
-    "main.9118a70f.js.map": "/static/js/main.9118a70f.js.map"
+    "main.css": "/portfolio-react/static/css/main.f5c3666d.css",
+    "main.js": "/portfolio-react/static/js/main.ff3d35cf.js",
+    "static/media/CapturePortfolio.png": "/portfolio-react/static/media/CapturePortfolio.ff593c727777b242b3ec.png",
+    "static/media/CaptureKasa.png": "/portfolio-react/static/media/CaptureKasa.b3d80077fc143bddab6e.png",
+    "static/media/CaptureLogin.png": "/portfolio-react/static/media/CaptureLogin.4d8cb37b61a708218936.png",
+    "static/media/CaptureAbout.png": "/portfolio-react/static/media/CaptureAbout.3bce3b1d71f1252116a4.png",
+    "static/media/CapturePortfolioLarge.png": "/portfolio-react/static/media/CapturePortfolioLarge.430b03e6745cf5c5f61b.png",
+    "static/media/CaptureRentalSheet.png": "/portfolio-react/static/media/CaptureRentalSheet.956841f0da278504e7e8.png",
+    "static/media/CaptureSuppimer.png": "/portfolio-react/static/media/CaptureSuppimer.37431d571cc9f822ba5f.png",
+    "static/media/CaptureBooki.png": "/portfolio-react/static/media/CaptureBooki.d909acfc393fe0a3208b.png",
+    "static/media/CaptureInfoLivre.png": "/portfolio-react/static/media/CaptureInfoLivre.2e5aac83cc03491e2a16.png",
+    "static/media/CaptureSiteLivre.png": "/portfolio-react/static/media/CaptureSiteLivre.186cb12d19d627940939.png",
+    "static/media/CaptureBookiLarge.png": "/portfolio-react/static/media/CaptureBookiLarge.1995abfb58be5ddcbac5.png",
+    "static/media/CaptureAjouter.png": "/portfolio-react/static/media/CaptureAjouter.1b1f32a2b47d05e69933.png",
+    "static/media/CaptureAjoutLivre.png": "/portfolio-react/static/media/CaptureAjoutLivre.54109ca162da66dff2ad.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.f5c3666d.css.map": "/portfolio-react/static/css/main.f5c3666d.css.map",
+    "main.ff3d35cf.js.map": "/portfolio-react/static/js/main.ff3d35cf.js.map"
   },
   "entrypoints": [
     "static/css/main.f5c3666d.css",
-    "static/js/main.9118a70f.js"
+    "static/js/main.ff3d35cf.js"
   ]
 }
