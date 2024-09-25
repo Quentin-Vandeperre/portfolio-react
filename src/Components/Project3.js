@@ -1,12 +1,13 @@
-function Project1() {
-    return (
-        <aside id="modal3" class="modal">	
-                    <div class="modalWrapper3 jsModalStop">
-                        <div class="towButton">
-                            <button class="returnModal3"><i class="fa-solid fa-arrow-left"></i></button>
-                            <button class="jsModalClose3">X</button>
-                        </div>
-                        <div class="pictureAndInfoProject">
+import React from 'react'
+import '../styles/modal.css'
+
+export default function Project3({closeModal}) {
+  return (
+    <>
+      <div onClick={closeModal} className="backgroundModal">
+      </div>
+      <div className="divModal">
+      <div class="pictureAndInfoProject">
                             {/* <img src="img/CaptureKasa.png" alt="picturePortfolio" class="picturePrincipalModal"> */}
                             <div class="infoProjectBooki">
                                 <h1 class="titleModal">Kasa</h1>
@@ -37,10 +38,10 @@ function Project1() {
                             {/* <img src="img/CaptureRentalSheet.png" alt="picturePortfolio" class="pictureSecondaireModal">
                             <img src="img/CaptureAbout.png" alt="picturePortfolio" class="pictureSecondaireModal"> */}
                         </div>
-                        <button class="buttonModalNextProject3">Projet suivant</button>
-                    </div>
-                </aside>
-    );
-    }
-    
-    export default Project1
+        <button className= "buttonCloseModale" onClick={closeModal}>
+          X
+        </button>
+      </div>
+    </>
+  )
+}

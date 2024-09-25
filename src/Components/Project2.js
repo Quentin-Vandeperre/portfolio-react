@@ -1,7 +1,13 @@
-function Project2() {
-    return (
-        <aside id="modal2" class="modal">	
-                        <div class="pictureAndInfoProject">
+import React from 'react'
+import '../styles/modal.css'
+
+export default function Project2({closeModal}) {
+  return (
+    <>
+      <div onClick={closeModal} className="backgroundModal">
+      </div>
+      <div className="divModal">
+      <div class="pictureAndInfoProject">
                             {/* <img src="img/CapturePortfolioLarge.png" alt="picturePortfolio" class="picturePrincipalModal"> */}
                             <div class="infoProjectBooki">
                                 <h1 class="titleModal">Portfolio Architecte</h1>
@@ -31,8 +37,13 @@ function Project2() {
                             <img src="img/CaptureSuppimer.png" alt="picturePortfolio" class="pictureSecondaireModal">
                             <img src="img/CaptureAjouter.png" alt="picturePortfolio" class="pictureSecondaireModal"> */}
                         </div>
-                        <button class="buttonModalNextProject2">Projet suivant</button>
-                </aside>
-    );
+        <button className= "buttonCloseModale" onClick={closeModal}>
+          X
+        </button>
+      </div>
+    </>
+  )
 }
-    export default Project2
+
+
+

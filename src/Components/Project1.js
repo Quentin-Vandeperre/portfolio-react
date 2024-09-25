@@ -1,15 +1,12 @@
-import React from 'react';
+import React from 'react'
+import '../styles/modal.css'
 
-import Modal from './Modal';
-
-const ModalOne = ({ closeFn = () => null, open = true }) => {
-return (
-    <Modal open={open}>
-        <div className="modal--mask">
-        <div className="modal-window">
-        <button type="button" onClick={closeFn}>
-              Close
-            </button>
+export default function Project1({closeModal}) {
+  return (
+    <>
+      <div onClick={closeModal} className="backgroundModal">
+      </div>
+      <div className="divModal">
         <div class="pictureAndInfoProject">
                             {/* <img src="img/CaptureBookiLarge.png" alt="pictureBooki" class="picturePrincipalModal"> */}
                             <div class="infoProjectBooki">
@@ -33,14 +30,11 @@ return (
                                 <a href="https://quentin-vandeperre.github.io/Booki-2024/" class="visitSite">Visiter le site</a>
                             </div>
                             
-                        </div>
         </div>
+        <button className= "buttonCloseModale" onClick={closeModal}>
+          X
+        </button>
       </div>
-
-
-
-    
-                </Modal>
-);
+    </>
+  )
 }
-export default ModalOne;
